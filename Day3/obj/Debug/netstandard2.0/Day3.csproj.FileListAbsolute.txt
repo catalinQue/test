@@ -1,0 +1,13 @@
+D:\Code\AdventOfCode\Day3\obj\Debug\netstandard2.0\Day3.csprojAssemblyReference.cache
+D:\Code\AdventOfCode\Day3\obj\Debug\netstandard2.0\Day3.AssemblyInfoInputs.cache
+D:\Code\AdventOfCode\Day3\obj\Debug\netstandard2.0\Day3.AssemblyInfo.cs
+D:\Code\AdventOfCode\Day3\obj\Debug\netstandard2.0\Day3.csproj.CoreCompileInputs.cache
+D:\Code\AdventOfCode\Day3\bin\Debug\netstandard2.0\Day3.deps.json
+D:\Code\AdventOfCode\Day3\bin\Debug\netstandard2.0\Day3.dll
+D:\Code\AdventOfCode\Day3\bin\Debug\netstandard2.0\Day3.pdb
+D:\Code\AdventOfCode\Day3\bin\Debug\netstandard2.0\Common.dll
+D:\Code\AdventOfCode\Day3\bin\Debug\netstandard2.0\Common.pdb
+D:\Code\AdventOfCode\Day3\obj\Debug\netstandard2.0\Day3.csproj.CopyComplete
+D:\Code\AdventOfCode\Day3\obj\Debug\netstandard2.0\Day3.dll
+D:\Code\AdventOfCode\Day3\obj\Debug\netstandard2.0\Day3.pdb
+D:\Code\AdventOfCode\Day3\bin\Debug\netstandard2.0\Inputs3.txt

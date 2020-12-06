@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GXl9ySh9vW/V9M2k9ySHMYKUr4xKCLUkDFYA9hVcIQX1MVZMewGoZcehEC2u0WaK6vubFRhG3+LHOyRgbS0gAg==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\AdventOfCode\\Day2\\Day2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\catalin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
