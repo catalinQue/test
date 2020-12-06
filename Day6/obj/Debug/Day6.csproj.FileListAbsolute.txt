@@ -1,0 +1,10 @@
+D:\Code\AdventOfCode\Day6\bin\Debug\Inputs6.txt
+D:\Code\AdventOfCode\Day6\bin\Debug\Day6.dll
+D:\Code\AdventOfCode\Day6\bin\Debug\Day6.pdb
+D:\Code\AdventOfCode\Day6\bin\Debug\Common.dll
+D:\Code\AdventOfCode\Day6\bin\Debug\Common.pdb
+D:\Code\AdventOfCode\Day6\obj\Debug\Day6.csprojAssemblyReference.cache
+D:\Code\AdventOfCode\Day6\obj\Debug\Day6.csproj.CoreCompileInputs.cache
+D:\Code\AdventOfCode\Day6\obj\Debug\Day6.csproj.CopyComplete
+D:\Code\AdventOfCode\Day6\obj\Debug\Day6.dll
+D:\Code\AdventOfCode\Day6\obj\Debug\Day6.pdb

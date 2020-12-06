@@ -1,5 +1,6 @@
 ﻿using Common;
 using System;
+using System.IO;
 using System.Linq;
 
 namespace Day5
@@ -8,11 +9,15 @@ namespace Day5
     {
         public string Solve()
         {
-            var inputs = Inputs.GetInputsValues("5");
-            var lines = inputs.Split(Environment.NewLine.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+            var input = from line in File.ReadLines("Inputs5.txt")
+                        select Convert.ToInt32(line.Replace("B", "1")
+                                                   .Replace("F", "0")
+                                                   .Replace("R", "1")
+                                                   .Replace("L", "0"), 2);
 
-            var seats = Seat.Parse(inputs);
-            return seats.Max(s => s.Id).ToString();
+            var result = input.Max();
+
+            return result.ToString();
         }
     }
 }

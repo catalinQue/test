@@ -15,4 +15,3 @@ D:\Code\AdventOfCode\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
 D:\Code\AdventOfCode\Common\obj\Debug\netstandard2.0\Common.dll
 D:\Code\AdventOfCode\Common\obj\Debug\netstandard2.0\Common.pdb
 D:\Code\AdventOfCode\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
-D:\Code\AdventOfCode\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
