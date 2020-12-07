@@ -1,5 +1,6 @@
 ﻿using Common;
 using System;
+using System.Linq;
 
 namespace Day3
 {
@@ -9,10 +10,8 @@ namespace Day3
         {
             var inputs = Inputs.GetInputsValues("3");
             var lines = inputs.Split(Environment.NewLine.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
-            var map = new Map(lines);
 
-            return map.CountForSlope(3, 1).ToString();
-
+            return Tree.Calcutate(1, 3, lines).ToString();
         }
     }
 }

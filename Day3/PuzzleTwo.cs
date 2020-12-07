@@ -1,5 +1,6 @@
 ﻿using Common;
 using System;
+using System.Linq;
 
 namespace Day3
 {
@@ -9,16 +10,8 @@ namespace Day3
         {
             var inputs = Inputs.GetInputsValues("3");
             var lines = inputs.Split(Environment.NewLine.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
-            var map = new Map(lines);
 
-            long result = 1;
-            result = result * map.CountForSlope(1, 1);
-            result = result * map.CountForSlope(3, 1);
-            result = result * map.CountForSlope(5, 1);
-            result = result * map.CountForSlope(7, 1);
-            result = result * map.CountForSlope(1, 2);
-
-            return result.ToString();
+            return new[] { (1, 1), (1, 3), (1, 5), (1, 7), (2, 1) }.Select(x => Tree.Calcutate(x.Item1, x.Item2, lines)).Aggregate(1L, (a, c) => a * c).ToString();
         }
     }
 }
