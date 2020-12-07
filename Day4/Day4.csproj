@@ -41,9 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FieldValuePair.cs" />
+    <Compile Include="DictionaryExtension.cs" />
     <Compile Include="Passport.cs" />
-    <Compile Include="PassportField.cs" />
     <Compile Include="PuzzleOne.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PuzzleTwo.cs" />

@@ -1,5 +1,8 @@
 ﻿using Common;
 using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 
 namespace Day4
 {
@@ -7,17 +10,14 @@ namespace Day4
     {
         public string Solve()
         {
-            var inputs = Inputs.GetInputsValues("4");
-            var lines = inputs.Split(Environment.NewLine.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+            string inputs;
+            using (StreamReader sr = new StreamReader("Inputs4.txt"))
+            {
+                inputs = sr.ReadToEnd();
+            }
+            var lines = inputs.Split(new[] { Environment.NewLine + Environment.NewLine }, StringSplitOptions.None).ToList();
 
-            var count = 0;
-
-            var passports = Passport.ParseMany(inputs);
-            foreach (var id in passports)
-                if (id.ContainsRequiredFields)
-                    count++;
-
-            return count.ToString();
+            return Passport.GetPassports(lines).Count.ToString();
         }
     }
 }
