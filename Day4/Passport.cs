@@ -9,29 +9,46 @@ namespace Day4
 {
     internal static class Passport
     {
+        const string BYR = "byr";
+        const string IYR = "iyr";
+        const string EYR = "eyr";
+        const string HGT = "hgt";
+        const string HCL = "hcl";
+        const string ECL = "ecl";
+        const string PID = "pid";
+        const string CID = "cid";
+        const string BYR_REG = @"\b(19[2-9][0-9]|200[0-2])\b";
+        const string IYR_REG = @"\b(201[0-9]|2020)\b";
+        const string EYR_REG = @"\b(202[0-9]|2030)\b";
+        const string HGT_REG = @"\b(1[5-8][0-9]cm|19[0-3]cm|59in|6[0-9]in|7[0-6]in)\b";
+        const string HCL_REG = @"\s*\#[0-9a-z]{6}";
+        const string ECL_REG = @"\b(amb|blu|brn|gry|grn|hzl|oth)\b";
+        const string PID_REG = @"\b[0-9]{9}\b";
+        const string CID_REG = @".*";
+
         public static List<string> GetPassports(List<string> passports)
         {
             List<string> allPassports = new List<string>();
 
             foreach (var passport in passports)
             {
-                string pp = passport.Replace("\r\n", " ");
-                var pairs = pp.Split(' ').ToList();
-                var keyValues = new Dictionary<string, string>();
+                string pass = passport.Replace("\r\n", " ");
+                var pairs = pass.Split(' ').ToList();
+                var keys = new Dictionary<string, string>();
 
                 foreach (var pair in pairs)
                 {
                     string key = pair.Split(':')[0];
                     string value = pair.Split(':')[1];
 
-                    if (!keyValues.ContainsKey(key))
-                        keyValues.Add(key, value);
+                    if (!keys.ContainsKey(key))
+                        keys.Add(key, value);
                 }
 
-                List<string> requiredFields = new List<string>() { "byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid" };
+                List<string> requiredFields = new List<string>() { BYR, IYR, EYR, HGT, HCL, ECL, PID };
 
-                if (keyValues.ContainsKey(requiredFields))
-                    allPassports.Add(pp);
+                if (keys.ContainsKey(requiredFields))
+                    allPassports.Add(pass);
             }
 
             return allPassports;
@@ -39,24 +56,13 @@ namespace Day4
 
         public static List<string> ValidatePassports(List<string> passports)
         {
-            Dictionary<string, string> validationRules = new Dictionary<string, string>()
-    {
-        { "byr", @"\b(19[2-9][0-9]|200[0-2])\b" },
-        { "iyr", @"\b(201[0-9]|2020)\b" },
-        { "eyr", @"\b(202[0-9]|2030)\b" },
-        { "hgt", @"\b(1[5-8][0-9]cm|19[0-3]cm|59in|6[0-9]in|7[0-6]in)\b" },
-        { "hcl", @"\s*\#[0-9a-z]{6}" },
-        { "ecl", @"\b(amb|blu|brn|gry|grn|hzl|oth)\b" },
-        { "pid", @"\b[0-9]{9}\b" },
-        { "cid", @".*" }
-    };
+            Dictionary<string, string> validationRules = new Dictionary<string, string>(){ { BYR, BYR_REG }, { IYR, IYR_REG }, { EYR, EYR_REG }, { HGT, HGT_REG }, { HCL, HCL_REG }, { ECL, ECL_REG }, { PID, PID_REG }, { CID, CID_REG } };
 
-            List<string> invalidPassports = new List<string>();
+            List<string> invalidPass = new List<string>();
 
-            foreach (var pp in passports)
+            foreach (var passport in passports)
             {
-                List<string> pairs = pp.Split(' ').ToList();
-                var keyValues = new Dictionary<string, string>();
+                List<string> pairs = passport.Split(' ').ToList();
 
                 foreach (var pair in pairs)
                 {
@@ -69,13 +75,13 @@ namespace Day4
 
                     if (!Regex.IsMatch(value, rule))
                     {
-                        invalidPassports.Add(pp);
+                        invalidPass.Add(passport);
                         break;
                     }
                 }
             }
 
-            passports.RemoveAll(invalidPassports);
+            passports.RemoveAll(invalidPass);
             return passports;
         }
 
