@@ -31,3 +31,6 @@ D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Day6.pdb
 D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Day7.dll
 D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Day7.pdb
 D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Inputs7.txt
+D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Inputs8.txt
+D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Day8.dll
+D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Day8.pdb
