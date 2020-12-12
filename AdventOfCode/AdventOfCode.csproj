@@ -87,6 +87,14 @@
       <Project>{9e80ae01-7658-4076-94b6-b56ffd259baa}</Project>
       <Name>Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Day10\Day10.csproj">
+      <Project>{154317ce-d171-4568-abd4-4d3b67b40b37}</Project>
+      <Name>Day10</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Day11\Day11.csproj">
+      <Project>{bf3965bd-3e47-4871-afa8-caaaa33cf4ec}</Project>
+      <Name>Day11</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Day1\Day1.csproj">
       <Project>{629408fc-f1ab-41b6-a608-9efb38593428}</Project>
       <Name>Day1</Name>

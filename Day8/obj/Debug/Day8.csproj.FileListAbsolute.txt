@@ -1,4 +1,3 @@
-D:\Code\AdventOfCode\Day8\obj\Debug\Day8.csprojAssemblyReference.cache
 D:\Code\AdventOfCode\Day8\obj\Debug\Day8.csproj.CoreCompileInputs.cache
 D:\Code\AdventOfCode\Day8\bin\Debug\Inputs8.txt
 D:\Code\AdventOfCode\Day8\bin\Debug\Day8.dll
@@ -8,3 +7,4 @@ D:\Code\AdventOfCode\Day8\bin\Debug\Common.pdb
 D:\Code\AdventOfCode\Day8\obj\Debug\Day8.csproj.CopyComplete
 D:\Code\AdventOfCode\Day8\obj\Debug\Day8.dll
 D:\Code\AdventOfCode\Day8\obj\Debug\Day8.pdb
+D:\Code\AdventOfCode\Day8\obj\Debug\Day8.csprojAssemblyReference.cache

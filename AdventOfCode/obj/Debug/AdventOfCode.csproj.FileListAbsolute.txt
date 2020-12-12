@@ -37,3 +37,9 @@ D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Day8.pdb
 D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Inputs9.txt
 D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Day9.dll
 D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Day9.pdb
+D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Inputs10.txt
+D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Day10.dll
+D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Day10.pdb
+D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Inputs11.txt
+D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Day11.dll
+D:\Code\AdventOfCode\AdventOfCode\bin\Debug\Day11.pdb

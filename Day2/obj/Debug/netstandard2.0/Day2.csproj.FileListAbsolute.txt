@@ -16,7 +16,6 @@ D:\Code\AdventOfCode\Day2\bin\Debug\netstandard2.0\Day2.dll
 D:\Code\AdventOfCode\Day2\bin\Debug\netstandard2.0\Day2.pdb
 D:\Code\AdventOfCode\Day2\bin\Debug\netstandard2.0\Common.dll
 D:\Code\AdventOfCode\Day2\bin\Debug\netstandard2.0\Common.pdb
-D:\Code\AdventOfCode\Day2\obj\Debug\netstandard2.0\Day2.csprojAssemblyReference.cache
 D:\Code\AdventOfCode\Day2\obj\Debug\netstandard2.0\Day2.AssemblyInfoInputs.cache
 D:\Code\AdventOfCode\Day2\obj\Debug\netstandard2.0\Day2.AssemblyInfo.cs
 D:\Code\AdventOfCode\Day2\obj\Debug\netstandard2.0\Day2.csproj.CopyComplete
@@ -24,3 +23,4 @@ D:\Code\AdventOfCode\Day2\obj\Debug\netstandard2.0\Day2.dll
 D:\Code\AdventOfCode\Day2\obj\Debug\netstandard2.0\Day2.pdb
 D:\Code\AdventOfCode\Day2\obj\Debug\netstandard2.0\Day2.csproj.CoreCompileInputs.cache
 D:\Code\AdventOfCode\Day2\bin\Debug\netstandard2.0\Inputs2.txt
+D:\Code\AdventOfCode\Day2\obj\Debug\netstandard2.0\Day2.csprojAssemblyReference.cache
